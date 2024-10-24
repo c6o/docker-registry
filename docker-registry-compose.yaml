@@ -1,0 +1,4 @@
+consume:
+  primaryNamespace: docker-registry
+  rules:
+    - docker-registry/docker-registry
