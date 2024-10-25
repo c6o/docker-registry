@@ -6,3 +6,6 @@ persistence:
   existingClaim: docker-registry-pv-claim
 secrets:
   htpasswd: ""
+service:
+  type: NodePort
+  nodePort: 30100
